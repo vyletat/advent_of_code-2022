@@ -76,6 +76,7 @@ for line in f:
     ans2 += 3 * result + me + 1
 
 print(ans2)
+f.close()
 
 
 # Second solution

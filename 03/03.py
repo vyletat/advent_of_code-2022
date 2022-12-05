@@ -49,3 +49,4 @@ with open("input.txt", 'r') as f:
         lines_number += 3
 
 print(resultGroup)
+f.close()

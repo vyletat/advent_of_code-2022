@@ -16,8 +16,10 @@ for line in f:
     # if same elements are in range1 and range2 them add to count
     if same == range1 or same == range2:
         count += 1
+    # part 2
     if len(same) > 0:
         countOverlap += 1
 
 print(count)
 print(countOverlap)
+f.close()
